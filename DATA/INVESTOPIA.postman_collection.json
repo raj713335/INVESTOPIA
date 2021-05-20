@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "cd58df24-69c0-493c-a9d1-59ce478fb2c8",
+		"name": "INVESTOPIA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetUserDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/GetUserDetails",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"GetUserDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegisterNewUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"FIRSTNAME\" : \"Anton\",\r\n    \"LASTNAME\" : \"Van\",\r\n    \"EMAILID\" : \"anton@gmail.com\",\r\n    \"PASSWORD\" : \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/RegisterNewUser",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"RegisterNewUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginValidation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EMAILID\" : \"anton@gmail.com\",\r\n    \"PASSWORD\" : \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/LoginValidation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"LoginValidation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Health Model",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Status\": 0,\r\n  \"Alcohol\":67,\r\n  \"BMI\": 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All UserInformation",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/GetAllUserInformations",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"GetAllUserInformations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add User Information",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailid\": \"trisha@gmail.com\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 24,\r\n    \"disabilities\": \"No\",\r\n    \"dependents\": 4,\r\n    \"country\": \"India\",\r\n    \"state\": \"West Bengal\",\r\n    \"countryStatus\": \"Developing\",\r\n    \"pinCode\": \"713335\",\r\n    \"taxid\": \"HHDHBB2388\",\r\n    \"passportid\": \"JJSJUU23\",\r\n    \"nominee\": \"ASITA DAS\",\r\n    \"relationshipWithNominee\": \"Mother\",\r\n    \"currentSalary\": 345624.00,\r\n    \"savings\": 7772812.09,\r\n    \"healthInsurance\": \"No\",\r\n    \"otherInsurance\": \"No\",\r\n    \"smoke\": \"No\",\r\n    \"healthIssue\": \"No\",\r\n    \"exercise\": \"No\",\r\n    \"alcohol\": 2.00,\r\n    \"bmi\": 34.00,\r\n    \"expectedAgeToLive\": 74.20,\r\n    \"YearlySavingsRequired\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/AddUserInformation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"AddUserInformation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddUserInformation TEST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"age\": 26,\r\n    \"alcohol\": 675.9,\r\n    \"bmi\": 43.2,\r\n    \"country\": \"INDIA\",\r\n    \"countryStatus\": \"Developed\",\r\n    \"currentSalary\": 61267,\r\n    \"dependents\": 2,\r\n    \"disabilities\": \"No\",\r\n    \"emailid\": \"arnav@gmail.com\",\r\n    \"exercise\": \"Yes\",\r\n    \"expectedAgeToLive\": 73,\r\n    \"gender\": \"Male\",\r\n    \"healthInsurance\": \"Yes\",\r\n    \"healthIssue\": \"No\",\r\n    \"nominee\": \"Anto\",\r\n    \"otherInsurance\": \"Yes\",\r\n    \"passportid\": \"JSJJJQML133\",\r\n    \"pinCode\": \"626266\",\r\n    \"relationshipWithNominee\": \"Son\",\r\n    \"savings\": 128762,\r\n    \"smoke\": \"No\",\r\n    \"STATE\": \"WEST BENGAL\",\r\n    \"taxid\": \"GJKAJ26728\",\r\n    \"yearlySavingsRequired\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/AddUserInformation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"AddUserInformation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Finance",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "z@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44314/api/Investopia/GetUserFinance?EmailId=sandra@gmail.com",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44314",
+					"path": [
+						"api",
+						"Investopia",
+						"GetUserFinance"
+					],
+					"query": [
+						{
+							"key": "EmailId",
+							"value": "sandra@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
