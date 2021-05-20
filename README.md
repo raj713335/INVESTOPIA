@@ -1,0 +1,216 @@
+<h1 align="center">INVESTOPIA</h1>
+<h3 align="center">AGEING BETTER WITH ICTs</h3>
+<p align="center"><a href="https://www.hackerearth.com/challenges/hackathon/ageing-better-with-icts">Online Hackathon #AgeingBetterHack #WSIS</a></p>
+<img src="DATA/01cover.png" align="center" />
+<p><strong>Financial Tools for Longevity –</strong> including solutions that support retirement planning for longer lives or protect against financial abuse.</p> 
+
+<img src="DATA/02.png" align="right" width="350" height="350" />
+<h3>Key Features</h3>
+<ul>
+  <li>Introduced Machine Learning for Life Expectancy and Wealth Analysis.</li>
+  <li>Proper Financila Planning for Retirement and Old Age.</li>
+  <li>Visual and Detailed Displays with Analysis.</li>
+  <li>Charts and Graphs for enhanced calculations</li>
+  <li>Management Flow.</li>
+  <li>Realtime Cash Flows, Statements, Investments and Retirement monetary values</li>
+</ul>
+
+After it receives certain necessary inputs from user (i.e. current age, salary, health related info, etc), it will show all the required information including graphs and charts for better view and financial controls. It also uses Machine Learning to improve for more better investments.
+
+<br />
+<br />
+
+<h1>THEME: Financial Tools for Longevity</h1>
+<p><strong>Including solutions that support retirement planning for longer lives or protect against financial abuse.</strong></p>
+
+```
+It is a Web Based Project that requires a browser and internet connection to be operable.
+
+Some Examples -
+
+  1. Savings
+  2. Stock Investments
+  3. Savings and Investments Analysis for Old Age.
+  4. To have enough wealth for secure retirement and still have your pleasures during old age.
+
+On front end -
+  1. Receives inputs through a form from user.
+  2. Calculates and Displays the data and other information including visual charts.
+  3. Realtime data analysis calculator.
+
+On back end -
+  1. Machine Learning Model that predicts Life Expectancy from certain parameters and also total wealth calculation.
+  2. Realtime Calculation for Realtime Analysis Calculator.
+
+```
+
+# INVESTOPIA WORKING SAMPLE
+
+For video demostration refer to the YouTube link <a href="https://www.youtube.com/watch?v=wVqjilbKox8&t=2s">here.</a> 
+
+
+<p align="center">
+    <img src="DATA/screenshot/Working Sample/INVESTOPIA.gif" width="1200">
+    <br>
+    <sup><a href="https://github.com/raj713335/AGEING-BETTER-WITH-ICTs" target="_blank"><strong>INVESTOPIA</strong></a></sup>
+</p>
+
+
+# INVESTOPIA SIGN UP SAMPLE 
+
+<p align="center">
+    <img src="DATA/screenshot/Working Sample/SignUp.gif" width="1200">
+    <br>
+    <sup><a href="https://github.com/raj713335/AGEING-BETTER-WITH-ICTs" target="_blank"><strong>INVESTOPIA</strong></a></sup>
+</p>
+
+# INVESTOPIA STOCK PRICE PREDICTION WORKING SAMPLE DEMO
+
+<p align="center">
+    <img src="DATA/screenshot/Working Sample/StockPricePrediction.gif" width="1200">
+    <br>
+    <sup><a href="https://github.com/raj713335/AGEING-BETTER-WITH-ICTs" target="_blank"><strong>INVESTOPIA</strong></a></sup>
+</p>
+
+
+<h1>Project Screenshots</h1>
+<img src="DATA/screenshot/08.png" width="390" height="320" align="left" />
+<img src="DATA/screenshot/07.png" width="400" height="360" align="right" />
+
+<br />
+
+<img src="DATA/screenshot/02.png" />
+
+<br />
+
+<img src="DATA/screenshot/03.png" />
+
+<br />
+
+<img src="DATA/screenshot/04.png" />
+
+<br />
+
+<img src="DATA/screenshot/05.png" />
+
+<br />
+
+
+
+<img src="DATA/screenshot/09.png" />
+
+<br />
+
+
+<img src="DATA/screenshot/10.png" />
+
+<br />
+
+
+<h1>Project Requirements</h1>
+
+<h4>Languages</h4>
+<ul>
+  <li>JavaScript/TypeScript</li>
+  <li>Python 3</li>
+  <li>C#</li>
+</ul>
+
+<h4>Frameworks</h4>
+<ul>
+  <li>Angular 9</li>
+  <li>BootStrap 4.6</li>
+  <li>Chart.js 3.1</li>
+  <li>ASP .NET CORE WEB API</li>
+</ul>
+
+<h1>Getting Started</h1>
+<p><strong>Clone the repo</strong></p>
+
+```
+  $ git clone https://github.com/raj713335/AGEING-BETTER-WITH-ICTs.git
+  $ cd AGEING-BETTER-WITH-ICTs
+```
+
+## Running ASP .NEW CORE WEB API APPLICATION
+	
+	Run INVESTOPIA_TSQL.sql script present in the project root diectory
+
+## Running ASP .NEW CORE WEB API APPLICATION
+	
+	From Folder AGEING-BETTER-WITH-ICTs/Financial Tools for Longevity/FinancialToolsforongevity.ServiceLayer
+
+
+## Installing Python ML Module
+
+```
+  - Install Python 3.7.3 and its required Packages like tensorflow etc.
+ 
+  $ pip install numpy
+  $ pip install scipy
+  $ pip install scikit-learn
+  $ pip install matplotlib
+  $ pip install pandas
+  $ pip install fastapi
+  $ pip install uvicorn
+  $ pip install gunicorn==19.9.0
+  $ pip install uvloop
+  $ pip install httptools
+```
+
+- Run the app
+
+```sh
+$ python AGEING-BETTER-WITH-ICTs/ML Components/app.py
+```
+
+# Angular
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Installing Angular and other Libraries
+	
+	Add the node_modules Folder inside AGEING-BETTER-WITH-ICTs/LongevityAPP Folder
+
+```
+  Angular Installation Commands
+ 
+  $ npm install chart.js
+  $ npm install jquery
+  $ npm install bootstrap font-awesome
+  $ npm install bootstrap@next
+  $ npm install ngx-captcha
+  $ npm install --save igniteui-angular-core
+  $ npm install --save igniteui-angular-charts
+```
+
+<p>Run the App</p>
+
+```
+  $ ng serve -o
+```
+
+
+<h2>That's it!</h2>
