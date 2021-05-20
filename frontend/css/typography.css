@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body
+{
+	font-family: 'Inter', sans-serif;
+	color: #062942;
+	font-size: 16px;
+	line-height: 1.75;
+}
+
+.regular
+{
+	font-weight: 400 !important;
+}
+
+.semi-bold
+{
+	font-weight: 500 !important;
+}
+
+.bold
+{
+	font-weight: 600 !important;
+}
+
+.no-td-space
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Inter', sans-serif;
+	
+}
+
+h1
+{
+	font-size: 44px;
+	line-height: 54px;
+	font-weight: 600;
+}
+
+h2
+{
+	font-size: 38px;
+	line-height: 46px;
+	font-weight: 600;
+}
+
+h3
+{
+	font-size: 28px;
+	line-height: 42px;
+	font-weight: 600;
+}
+
+h4
+{
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 500;
+}
+
+h5
+{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+h6
+{
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+.type-6
+{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+}
+
+.type-7
+{
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+}
+
+.type-7-2
+{
+	font-size: 12.8px;
+	line-height: 18px;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+}
+
+p
+{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+a
+{
+	color: #258fe7;
+}
+
+.no-underline
+{
+	text-decoration: none !important;
+}
+
+.text-grey
+{
+	color: #858585;
+}
+
+.text-dark-grey
+{
+	color: #6b6b6b;
+}
+
+.text-sub-blue
+{
+	color: #4a8fda;
+}
+
+.text-blue
+{
+	color: #0d83dd;
+}
