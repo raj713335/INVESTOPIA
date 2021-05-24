@@ -54,7 +54,7 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 <p align="center">
     <img src="DATA/screenshot/Working Sample/INVESTOPIA.gif" width="1200">
     <br>
-    <sup><a href="https://github.com/raj713335/AGEING-BETTER-WITH-ICTs" target="_blank"><strong>INVESTOPIA</strong></a></sup>
+    <sup><a href="https://github.com/raj713335/INVESTOPIA" target="_blank"><strong>INVESTOPIA</strong></a></sup>
 </p>
 
 
@@ -63,7 +63,7 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 <p align="center">
     <img src="DATA/screenshot/Working Sample/SignUp.gif" width="1200">
     <br>
-    <sup><a href="https://github.com/raj713335/AGEING-BETTER-WITH-ICTs" target="_blank"><strong>INVESTOPIA</strong></a></sup>
+    <sup><a href="https://github.com/raj713335/INVESTOPIA" target="_blank"><strong>INVESTOPIA</strong></a></sup>
 </p>
 
 # INVESTOPIA STOCK PRICE PREDICTION WORKING SAMPLE DEMO
@@ -71,7 +71,7 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 <p align="center">
     <img src="DATA/screenshot/Working Sample/StockPricePrediction.gif" width="1200">
     <br>
-    <sup><a href="https://github.com/raj713335/AGEING-BETTER-WITH-ICTs" target="_blank"><strong>INVESTOPIA</strong></a></sup>
+    <sup><a href="https://github.com/raj713335/INVESTOPIA" target="_blank"><strong>INVESTOPIA</strong></a></sup>
 </p>
 
 
@@ -130,8 +130,8 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 <p><strong>Clone the repo</strong></p>
 
 ```
-  $ git clone https://github.com/raj713335/AGEING-BETTER-WITH-ICTs.git
-  $ cd AGEING-BETTER-WITH-ICTs
+  $ git clone https://github.com/raj713335/INVESTOPIA.git
+  $ cd INVESTOPIA
 ```
 
 ## Running ASP .NEW CORE WEB API APPLICATION
@@ -140,7 +140,7 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 
 ## Running ASP .NEW CORE WEB API APPLICATION
 	
-	From Folder AGEING-BETTER-WITH-ICTs/Financial Tools for Longevity/FinancialToolsforongevity.ServiceLayer
+	From Folder INVESTOPIA/Financial Tools for Longevity/FinancialToolsforongevity.ServiceLayer
 
 
 ## Installing Python ML Module
@@ -163,7 +163,7 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 - Run the app
 
 ```sh
-$ python AGEING-BETTER-WITH-ICTs/ML Components/app.py
+$ python INVESTOPIA/ML Components/app.py
 ```
 
 # Angular
