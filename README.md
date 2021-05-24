@@ -1,8 +1,10 @@
 <h1 align="center">INVESTOPIA</h1>
-<h3 align="center">AGEING BETTER WITH ICTs</h3>
-<p align="center"><a href="https://www.hackerearth.com/challenges/hackathon/ageing-better-with-icts">Online Hackathon #AgeingBetterHack #WSIS</a></p>
+<h3 align="center">Azure Developer League Hackathon</h3>
+<p align="center"><a href="https://www.hackerearth.com/challenges/hackathon/azure-developer-league-hackathon/">Azure for Industries</a></p>
 <img src="DATA/01cover.png" align="center" />
-<p><strong>Financial Tools for Longevity –</strong> including solutions that support retirement planning for longer lives or protect against financial abuse.</p> 
+<p><strong>Banking, Finance and Investment –</strong> Reinvent the financial services experience and unlock new opportunities to empower intelligent banking, secured payment processing, modernize trading, and personalize insurance software systems. With Azure, financial organizations have the infrastructure and security to take customer experiences to the next level. 
+
+How can you utilize Azure  to empower banks, capital markets, and insurance firms to provide next-generation experiences for customers, improve regulatory compliance, manage risk, and reduce waste? Submit ideas to personalize customer experiences, modernize financial systems and optimize risk management.</p> 
 
 <img src="DATA/02.png" align="right" width="350" height="350" />
 <h3>Key Features</h3>
