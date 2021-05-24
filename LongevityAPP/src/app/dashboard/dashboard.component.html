@@ -1,0 +1,146 @@
+
+<app-user-layout></app-user-layout>
+
+<div class="container mt-5 mb-4">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>DASHBOARD</h3>
+
+      <div class="row mt-5">
+        <div class="col-md-9">
+          <h4>Life Expectancy Correlation Data</h4>
+          <p>Savings Health Stats</p>
+          <div id="dashboard-display-chart">
+            <canvas id="dashboard-chart"></canvas>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <div class="card border-2x">
+                <div class="card-body text-center">
+                  <p class="type-6 semi-bold">Recommended Savings Yearly</p>
+                  <h3 class="text-blue">{{FinaceData.yearlySavingsRequired}}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <div class="card border-2x">
+                <div class="card-body text-center">
+                  <p class="type-6 semi-bold">Life Expectancy</p>
+                  <h3 class="text-blue">{{FinaceData.expectedAgeToLive}} Years</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <div class="card border-2x">
+                <div class="card-body text-center">
+                  <p class="type-6 semi-bold">Years To Retirement Left</p>
+                  <h3 class="text-blue">{{60-FinaceData.age}} Years</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <div class="card border-2x">
+                <div class="card-body text-center">
+                  <p class="type-6 semi-bold">Monthly Saving Required</p>
+                  <h3 class="text-blue">{{FinaceData.yearlySavingsRequired/12 | number:'.2'}}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-12">
+          
+          <div class="row">
+            <div class="col-md-3 col-sm-6 text-center">
+              <div class="card border-2x mb-3">
+                <div class="card-body">
+                  <p class="type-6 semi-bold">Number Of Dependents</p>
+                  <h3 class="text-blue">{{FinaceData.dependents}}</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+              <div class="card border-2x mb-3">
+                <div class="card-body">
+                  <p class="type-6 semi-bold">Current Savings</p>
+                  <h3 class="text-blue">{{FinaceData.savings}}</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+              <div class="card border-2x mb-3">
+                <div class="card-body">
+                  <p class="type-6 semi-bold">Current Age</p>
+                  <h3 class="text-blue">{{FinaceData.age}}</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+              <div class="card border-2x mb-3">
+                <div class="card-body">
+                  <p class="type-6 semi-bold">Health Insurance</p>
+                  <h3 class="text-blue">{{FinaceData.healthInsurance}}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <div class="card card-border-2x">
+                <div class="card-body">
+                  <h4>Recommended Savings Distrubution</h4>
+                  <div id="dashboard-display-pie-chart">
+                    <canvas id="dashboard-chart-pie-display"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-border-2x">
+                <div class="card-body">
+                  <h4>Growth Vs Inflation Data (India)</h4>
+                  <div id="dashboard-display-dbl-line-chart">
+                    <canvas id="dashboard-chart-dbl-line-display"></canvas>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <div class="card card-border-2x">
+            <div class="card-body">
+              <h4>Country Wise Inflation Data</h4>
+              <div id="dashboard-display-multiline-chart">
+                <canvas id="dashboard-chart-multiline-display"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

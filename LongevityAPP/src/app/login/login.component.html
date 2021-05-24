@@ -1,0 +1,63 @@
+
+<app-common-layout></app-common-layout>
+
+  <form #loginForm="ngForm" (ngSubmit)="submitLoginForm(loginForm)">
+    <div class="container mt-5 mb-4">
+      <div class="row">
+        <div class="col-md-7">
+
+          <h2>70% PEOPLE SUFFER FROM LOW WEALTH BECAUSE OF IMPROPER PLANNING AND RAISING INFLATION</h2>
+
+        </div>
+        <div class="col-md-5">
+          <div class="card border-2x">
+
+            <div class="card-body">
+              <h3>LOGIN</h3>
+              <p class="type-7-2 text-muted">Don't have an Account ? <a href="#">Create One </a></p>
+
+              <br />
+
+              <div class="form-group">
+                <h6>Email:</h6>
+                <input type="email" class="form-control" #emaiRef name="email" ngModel required>
+              </div>
+              <div class="form-group">
+                <h6>Password:</h6>
+                <input type="password" class="form-control" #passwordRef name="password"  ngModel required>
+                <!--<p class="text-right type-6 mt-1"><a class="no-underline">Forgot Password ?</a></p>-->
+              </div>
+
+              <!--<div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" name="lemail" id="lemail" placeholder="Captcha" />
+                  </div>
+                </div>
+              </div>-->
+
+              <!--<div class="row">
+                <div class="col-md-12">
+                  <div class="custom-control custom-checkbox text-center">
+                    <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                    <label class="custom-control-label" for="customControlAutosizing">Remember Me</label>
+                  </div>
+                </div>
+              </div>-->
+
+              <div class="row mt-3">
+                <div class="col-md-12 col-sm-12">
+                  <button type="submit" [disabled]="!loginForm.form.valid" class="btn btn-success float-right">
+                    <i class="fa fa-sign-in-alt fa-fw"></i>
+                    Let Me In
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </form>

@@ -1,0 +1,17 @@
+#home-video
+{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.video-load
+{
+    max-width: 100%;
+    background-color: #eaf6fe;
+    border-radius: 8px;
+}
+
+.home-head
+{
+    text-shadow: 2px 3px 2px #0d83dd50;
+}

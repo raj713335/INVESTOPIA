@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforongevity.ServiceLayer\\FinancialToolsforongevity.ServiceLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforLongevity.DAL\\FinancialToolsforLongevity.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforLongevity.DAL\\FinancialToolsforLongevity.DAL.csproj",
+        "projectName": "FinancialToolsforLongevity.DAL",
+        "projectPath": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforLongevity.DAL\\FinancialToolsforLongevity.DAL.csproj",
+        "packagesPath": "C:\\Users\\ZEUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforLongevity.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforongevity.ServiceLayer\\FinancialToolsforongevity.ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforongevity.ServiceLayer\\FinancialToolsforongevity.ServiceLayer.csproj",
+        "projectName": "FinancialToolsforongevity.ServiceLayer",
+        "projectPath": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforongevity.ServiceLayer\\FinancialToolsforongevity.ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\ZEUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforongevity.ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforLongevity.DAL\\FinancialToolsforLongevity.DAL.csproj": {
+                "projectPath": "C:\\Users\\ZEUS\\Desktop\\AGEING-BETTER-WITH-ICTs\\Financial Tools for Longevity\\FinancialToolsforLongevity.DAL\\FinancialToolsforLongevity.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

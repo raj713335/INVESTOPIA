@@ -1,0 +1,6 @@
+.navbar-effects {
+  border-bottom: 1px solid #c1c1c1;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 5x 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,790 @@
+
+
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-effects">
+    <a class="navbar-brand" href="#">base234</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars fa-fw"></i>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <div class="btn-group mb-2">
+            <button type="button" class="nav-btn btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-user-circle fa-fw"></i> Chonga
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button">Edit Profile</button>
+              <button class="dropdown-item" type="button">Log Out</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-5 mb-4">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div id="basic-details-form">
+          <h4 class="text-dark-grey">1 of 3 : Basic Details</h4>
+          <div class="card border-2x" id="basic-details-1">
+            <div class="card-body">
+              <h4>Welcome Chonga,</h4>
+              <p class="text-dark-grey type-6">
+                Nowadays, everyone invests for future, some a little, someone with big proportion.
+                <span class="text-blue">
+                  Wouldn't it be better, if you know what should be the proper* proportion
+                  that could be profitable and helpful during your old age?
+                </span>
+              </p>
+              <p class="type-7 text-muted">
+                * Not truly 100% accurate.
+              </p>
+              <div class="row text-center mt-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-1-next">Next <i class="fa fa-chevron-right fa-fw"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-2" hidden>
+            <div class="card-body">
+              <h4>What is your Gender?</h4>
+              <div class="row mt-4">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <input type="radio" class="custom-super-special-radio" id="gender_01" name="select-gender" value="m">
+                        <label class="custom-super-special-label" for="gender_01">
+                          <h4>Male</h4>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <input type="radio" class="custom-super-special-radio" id="gender_02" name="select-gender" value="f">
+                        <label class="custom-super-special-label" for="gender_02">
+                          <h4>Female</h4>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="basic-page-2-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>1 of 6</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-2-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-3" hidden>
+            <div class="card-body">
+              <h4>What is your Age?</h4>
+              <p class="text-dark-grey type-6">
+                Don't Worry :)<br /> We need your age to provide you with Correct Calculations.
+              </p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="myAge" id="myAge" />
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="basic-page-3-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>2 of 6</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-3-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-4" hidden>
+            <div class="card-body">
+              <h4>Any Disabilities you have ?</h4>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row mt-4">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div>
+                            <input type="radio" class="custom-super-special-radio" id="disability_01" name="select-disability" value="y">
+                            <label class="custom-super-special-label" for="disability_01">
+                              <h4>Yes</h4>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div>
+                            <input type="radio" class="custom-super-special-radio" id="disability_02" name="select-disability" value="n">
+                            <label class="custom-super-special-label" for="disability_02">
+                              <h4>No</h4>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+
+                  <!--
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="chiller_cb">
+                        <input id="myCheckbox" type="checkbox" checked>
+                        <label for="myCheckbox">Checkbox</label>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                  -->
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="basic-page-4-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>3 of 6</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-4-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-5" hidden>
+            <div class="card-body">
+              <h4>Personal Details</h4>
+              <p class="text-dark-grey type-6">
+                Just need a bit of info about your daily place.
+              </p>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <h6>Dependents :</h6>
+                    <select type="text" class="form-control custom-select" name="select-dependents" id="select-dependents">
+                      <option>Select Dependents</option>
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                  </div>
+
+                  <hr />
+
+                  <div class="row mt-4">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <h6>Country :</h6>
+                            <select type="text" class="form-control custom-select" name="select-country" id="select-country">
+                              <option>Select Country</option>
+                              <option>India</option>
+                              <option>Uganda</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <h6>State :</h6>
+                            <select type="text" class="form-control custom-select" name="select-dependents" id="pan-tax-no">
+                              <option>Select State</option>
+                              <option>West Bengal</option>
+                              <option>Jharkhand</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <h6>Place :</h6>
+                            <select type="text" class="form-control custom-select" name="select-country" id="select-country">
+                              <option>Select Place</option>
+                              <option>Kolkata</option>
+                              <option>Barrackpore</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <h6>Pin Code :</h6>
+                            <input type="text" class="form-control" name="pincode" id="pincode" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="basic-page-5-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>Step 4 of 6</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-5-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-6" hidden>
+            <div class="card-body">
+              <h4>Required Official Details</h4>
+              <p class="text-dark-grey type-6">
+                Fill Required Information in the Fields Carefully.
+              </p>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <h6>TAX/PAN Number :</h6>
+                    <input type="text" class="form-control" name="pan-tax-no2" id="pan-tax-no" />
+                  </div>
+
+                  <div class="form-group">
+                    <h6>DIQ/Passport Number :</h6>
+                    <input type="text" class="form-control" name="pan-tax-no2" id="pan-tax-no" />
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="basic-page-6-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>Step 5 of 6</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-6-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-7" hidden>
+            <div class="card-body">
+              <h4>Nominee</h4>
+              <div class="row mt-3">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <h6>Nominee Name :</h6>
+                    <input type="text" class="form-control" id="nominee-name" />
+                  </div>
+
+                  <div class="row mt-4 mb-3">
+                    <div class="col-md-12">
+                      <h5>Relationship with Nominee :</h5>
+                      <div class="row mt-2">
+                        <div class="col-md-3">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-son" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-son">Son</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-daughter" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-daughter">Daughter</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-wife" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-wife">Wife</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-husband" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-husband">Husband</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row text-center mt-2">
+                        <div class="col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-father" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-father">Father</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-mother" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-mother">Mother</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="nominee-other" name="nominee-relationship" class="custom-control-input">
+                            <label class="custom-control-label" for="nominee-other">Other</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="basic-page-7-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>Step 6 of 6</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="basic-page-7-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="basic-details-8" hidden>
+            <div class="card-body">
+              <h4>That was Good!</h4>
+              <p class="text-dark-grey type-6">
+                We now have the basic details.
+              </p>
+              <p class="type-6 text-blue">
+                Let's save money by knowing your Expenditure and Income status.
+              </p>
+              <div class="row text-center mt-5">
+                <div class="col-md-12">
+                  <button class="btn btn-success btn-sm btn-block" id="basic-page-final">2 of 3 : Income Details <i class="fa fa-chevron-right fa-fw"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="income-details-form" hidden>
+          <h4 class="text-dark-grey">2 of 3 : Income Details</h4>
+
+          <div class="card border-2x" id="income-details-1" hidden>
+            <div class="card-body">
+              <h4>Income and Expenditure Status</h4>
+              <p class="text-dark-grey type-6">
+                This is the vital thing that most person fail to grab a hold of it.
+                <span class="text-blue">
+                  It could be far better to know how to spend, where to invest and how much to save.
+                  Specially, how much more you could earn by investing your extra savings.
+                </span>
+              </p>
+              <div class="row text-center mt-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="income-page-1-next">Next <i class="fa fa-chevron-right fa-fw"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="income-details-2" hidden>
+            <div class="card-body">
+              <h4>Your Current Salary</h4>
+              <p class="text-dark-grey type-6">
+                Enter your <span class="text-blue">Salary</span> on <span class="text-blue">Yearly</span> Basis.
+              </p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="mySalary" id="mySalary" />
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="income-page-2-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>1 of 3</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="income-page-2-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="income-details-3" hidden>
+            <div class="card-body">
+              <h4>Your Current Savings</h4>
+              <p class="text-dark-grey type-6">
+                If none, then enter <span class="text-blue">0</span>.
+              </p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="mySalary" id="mySalary" />
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="income-page-3-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>2 of 3</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="income-page-3-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="income-details-4" hidden>
+            <div class="card-body">
+              <h4>Insurance</h4>
+              <p class="text-dark-grey type-6">
+                Let me know if you are insured or not?
+              </p>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>Have you taken <span class="text-blue">Health</span> Insurance ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="health-insurance-yes" name="health-insurance" class="custom-control-input">
+                            <label class="custom-control-label" for="health-insurance-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="health-insurance-no" name="health-insurance" class="custom-control-input">
+                            <label class="custom-control-label" for="health-insurance-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>Have you taken <span class="text-blue">Any Other</span> Insurance ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="any-other-insurance-yes" name="any-other-insurance" class="custom-control-input">
+                            <label class="custom-control-label" for="any-other-insurance-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="any-other-insurance-no" name="any-other-insurance" class="custom-control-input">
+                            <label class="custom-control-label" for="any-other-insurance-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="income-page-4-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h6>3 of 3</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="income-page-4-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="income-details-5" hidden>
+            <div class="card-body">
+              <h4>Nicely Done.</h4>
+              <p class="text-dark-grey type-6">
+                We now have the Income Status.
+              </p>
+              <p class="type-6 text-blue">
+                Finally, we need your current health status.
+                <br />
+                You also need to take care of yourself from financial problems in future.
+              </p>
+              <div class="row text-center mt-5">
+                <div class="col-md-12">
+                  <button class="btn btn-success btn-sm btn-block" id="income-page-final">3 of 3 : Health Status <i class="fa fa-chevron-right fa-fw"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="health-details-form" hidden>
+          <h4 class="text-dark-grey">3 of 3 : Health Status</h4>
+
+          <div class="card border-2x" id="health-details-1" hidden>
+            <div class="card-body">
+              <h4>Health Information</h4>
+              <p class="text-dark-grey type-6">
+                Before its too late, one should abduct healthy habits.
+                <span class="text-blue">
+                  Though, no one is 100% healthy in this world,
+                  so you need to have emergency savings included.
+                </span>
+              </p>
+              <div class="row text-center mt-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="health-page-1-next">Next <i class="fa fa-chevron-right fa-fw"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="health-details-2" hidden>
+            <div class="card-body">
+              <h4>Health Information</h4>
+              <p class="text-dark-grey type-6">
+                Let me know your daily life Activities.
+              </p>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>Your Country Status ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="country-developing" name="country-status" class="custom-control-input">
+                            <label class="custom-control-label" for="country-developing">Developing</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="country-developed" name="country-status" class="custom-control-input">
+                            <label class="custom-control-label" for="country-developed">Developed</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>You Smoke ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="smoking-yes" name="smoking-status" class="custom-control-input">
+                            <label class="custom-control-label" for="smoking-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="smoking-no" name="smoking-status" class="custom-control-input">
+                            <label class="custom-control-label" for="smoking-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>You Drink Alcohol ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="drink-yes" name="drink-status" class="custom-control-input">
+                            <label class="custom-control-label" for="drink-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="drink-no" name="drink-status" class="custom-control-input">
+                            <label class="custom-control-label" for="drink-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>Are you Disabled ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="disabled-yes" name="disabled-status" class="custom-control-input">
+                            <label class="custom-control-label" for="disabled-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="disabled-no" name="disabled-status" class="custom-control-input">
+                            <label class="custom-control-label" for="disabled-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>Do you have any other Health Issues ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="other-health-issue-yes" name="other-health-issue-status" class="custom-control-input">
+                            <label class="custom-control-label" for="other-health-issue-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="other-health-issue-no" name="other-health-issue-status" class="custom-control-input">
+                            <label class="custom-control-label" for="other-health-issue-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12">
+                  <h5>Do you Exercise Regularly ?</h5>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="regular-exercise-yes" name="regular-exercise-status" class="custom-control-input">
+                            <label class="custom-control-label" for="regular-exercise-yes">Yes</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="regular-exercise-no" name="regular-exercise-status" class="custom-control-input">
+                            <label class="custom-control-label" for="regular-exercise-no">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center mt-5">
+                <div class="col-md-4 text-left">
+                  <button class="btn btn-success btn-sm" id="health-page-2-prev"><i class="fa fa-chevron-left"></i></button>
+                </div>
+                <div class="col-md-4 text-center">
+                  1 of 1
+                </div>
+                <div class="col-md-4 text-right">
+                  <button class="btn btn-success btn-sm" id="health-page-2-next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-2x" id="health-details-3" hidden>
+            <div class="card-body text-center">
+              <h4>YaY! Let's get started.</h4>
+              <p class="text-dark-grey type-6">
+                Thanks for your Patience!
+              </p>
+              <p class="type-6 text-blue">
+                Let me help you with today's fight that could save you tomorrow.
+              </p>
+              <div class="row text-center mt-5">
+                <div class="col-md-12">
+                  <button class="btn btn-success btn-sm btn-block" id="health-page-final"> <i class="fa fa-star fa-fw"></i> Get Started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+ 
