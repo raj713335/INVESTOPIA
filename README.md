@@ -1,7 +1,4 @@
 <h1 align="center">INVESTOPIA</h1>
-<h3 align="center">Azure Developer League Hackathon</h3>
-<p align="center"><a href="https://www.hackerearth.com/challenges/hackathon/azure-developer-league-hackathon/">Azure for Industries</a></p>
-<img src="DATA/01cover.png" align="center" />
 <p><strong>Banking, Finance and Investment –</strong> Reinvent the financial services experience and unlock new opportunities to empower intelligent banking, secured payment processing, modernize trading, and personalize insurance software systems. With Azure, financial organizations have the infrastructure and security to take customer experiences to the next level. 
 
 How can you utilize Azure  to empower banks, capital markets, and insurance firms to provide next-generation experiences for customers, improve regulatory compliance, manage risk, and reduce waste? Submit ideas to personalize customer experiences, modernize financial systems and optimize risk management.</p> 
